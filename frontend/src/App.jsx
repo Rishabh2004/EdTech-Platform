@@ -6,7 +6,7 @@ import Login from './pages/Login'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Courses from './pages/Courses'
-
+import CoursePlayer from './pages/CoursePlayer';
 const App = () => {
     return (
         <BrowserRouter>
@@ -17,6 +17,7 @@ const App = () => {
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/login" element={<Login />} />
+                <Route path="/courseplayer" element={<CoursePlayer />} />
             </Routes>
         </BrowserRouter>
     )
