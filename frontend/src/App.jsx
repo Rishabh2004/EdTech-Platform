@@ -7,6 +7,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import Courses from './pages/Courses'
 import CoursePlayer from './pages/CoursePlayer';
+
 const App = () => {
     return (
         <BrowserRouter>
