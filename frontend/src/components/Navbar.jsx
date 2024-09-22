@@ -10,11 +10,14 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="px-4 lg:px-6 bg-transparent backdrop-blur-sm shadow-md h-14 flex items-center justify-between">
+        <nav className="px-4 lg:px-6 bg-customBg text-customText backdrop-blur-sm shadow-md h-14 flex items-center justify-between">
             
             <div className="flex items-center">
                 <GraduationCap className="text-xl mr-3" />
-                <h1 className="text-lg font-semibold">EduPlatform</h1>
+                <Link to="/" className="text-lg font-medium hover:underline underline-offset-4">
+                    <h1 className="text-lg font-semibold">EduPlatform</h1>
+                </Link>
+                
             </div>
 
             <button
